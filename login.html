@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Aura Weather</title>
+  <link rel="stylesheet" href="/public/assets/css/login-styles.css">
+  <link rel="icon" href="image/favicon.png">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="img/login-bg.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+
+
+  <main class="container">
+    <div class="card-lg login-container">
+      <h1 class="title-1">Login to Aura Weather</h1>
+      <button class="google-signin-btn">
+        <svg class="google-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20px" height="20px">
+          <path fill="#EA4335" d="M24 9.5c3.07 0 5.57 1.03 7.43 2.73l5.52-5.54C33.41 3.52 28.93 2 24 2 14.73 2 7.08 7.48 3.67 15.02l6.92 5.37C12.25 13.78 17.72 9.5 24 9.5z"/>
+          <path fill="#34A853" d="M24 46c5.83 0 10.75-1.92 14.32-5.24l-6.54-5.28C29.92 37.57 27.17 38.5 24 38.5c-6.28 0-11.75-4.29-13.63-10.36l-6.9 5.3C7.03 40.56 14.71 46 24 46z"/>
+          <path fill="#4A90E2" d="M43.6 24.5c0-1.21-.1-2.37-.3-3.5H24v7h10.98c-.44 2.45-1.76 4.53-3.68 6.02l6.54 5.28C41.27 36.17 43.6 30.8 43.6 24.5z"/>
+          <path fill="#FBBC05" d="M10.37 28.14C9.87 26.64 9.6 25.09 9.6 23.5c0-1.59.27-3.14.75-4.64l-6.92-5.37C2.27 16.04 2 19.7 2 23.5c0 3.8.27 7.46.85 10.94l6.9-5.3c-.48-1.5-.75-3.05-.75-4.64z"/>
+        </svg>
+        Sign in with Google
+      </button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="body-3">&copy; 2023 Aura Weather. All Rights Reserved.</p>
+  </footer>
+
+
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="/public/assets/js/login.js" type="module"></script>
+
+</body>
+</html>
